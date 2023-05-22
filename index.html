@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Contatos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">    
+        <header>
+            <img src="./imagens/contato.png" alt="Icones de pessoas em pixels">
+            <h1>Adicionar Contato</h1>
+        </header>
+        <form id="form-contatos">
+            <input type="text" required id="nome-contato" placeholder="Nome de contato">
+            <input type="number" required id="numero-contato" placeholder="Numero do contato">
+            <button type="submit" class="bnt">+Aicionar</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nomes De Contatos</th>
+                    <th>Numeros de Contatos</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>---</td>
+                        <td>---</td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+    </div>
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+</body>
+</html>
